@@ -103,7 +103,8 @@ class BurgerBuilder extends Component {
                 <Modal 
                     show={this.state.purchasing}
                     modalClosed={this.purchaseCancelHandler}    >
-                    <OrderSummary 
+                    <OrderSummary //improve th eperformance of this component because
+                                //it always re-render whenever the state is updated
                         price={this.state.totalPrice}
                         cancel={this.purchaseCancelHandler}
                         continue={this.purchaseContinueHandler}
