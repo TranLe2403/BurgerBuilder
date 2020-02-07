@@ -9,7 +9,8 @@ const INGREDIENT_PRICE = {
     salad: 0.5, //type: value
     cheese: 0.4,
     meat: 1.3,
-    bacon: 0.7
+    bacon: 0.7,
+    crispyChicken: 1
 }
 
 class BurgerBuilder extends Component {
@@ -24,7 +25,8 @@ class BurgerBuilder extends Component {
             salad: 0,
             bacon: 0,
             cheese: 0,
-            meat: 0
+            meat: 0,
+            crispyChicken: 0
         },
         totalPrice: 4,
         purchaseable: false, //it returns true when we can buy a bg

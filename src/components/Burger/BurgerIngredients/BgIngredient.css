@@ -111,3 +111,10 @@
     background: linear-gradient(#bf3813, #c45e38);
     margin: 2% auto;
 }
+.Chicken {
+    width: 80%;
+    height: 9%;
+    background: linear-gradient( #ffbb61,#ffdd8e);
+    margin: 2% auto;
+    border-radius: 15px;
+}

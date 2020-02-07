@@ -34,7 +34,11 @@
         case ('bacon'):
             ingredient = <div className="Bacon"></div>;
             break;
-
+        
+        case ('crispyChicken'):
+            ingredient = <div className="Chicken"></div>;
+            break;
+            
         default: 
             ingredient = null;
     }
